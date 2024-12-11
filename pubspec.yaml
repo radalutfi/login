@@ -1,0 +1,36 @@
+name: login
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Correctly referencing the image asset in the 'images' folder
+  assets:
+    - images/ # Make sure the file exists at this location
+
+
+  # Optionally, you can add more assets or fonts if needed
+  # fonts:
+  #   - family: YourFontFamily
+  #     fonts:
+  #       - asset: fonts/YourFont-Regular.ttf
+  #       - asset: fonts/YourFont-Bold.ttf
